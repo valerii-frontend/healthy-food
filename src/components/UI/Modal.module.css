@@ -11,15 +11,14 @@
 .modal {
 	position: absolute;
 	top: 15vh;
-	left: 5%;
-	width: 50%;
+	left: calc(50% - 375px);
+	width: 750px;
 	background-color: white;
 	padding: 1rem;
 	border-radius: 14px;
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 	z-index: 30;
 	animation: slide-down 300ms ease-out forwards;
-	overflow: scroll;
 
 }
 

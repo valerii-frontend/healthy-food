@@ -80,8 +80,8 @@ const Cart = ({onClose}) => {
 			{!isCheckout && acTionButtons}
 		</>
 	);
-	const isSubmittingModalContent = <p>Sending order data...</p>;
-	const didSubmittingModalContent = <p>Successfully sent the order!</p>;
+	const isSubmittingModalContent = <p className='cart_msg'>Sending order data...</p>;
+	const didSubmittingModalContent = <p className='cart_msg'>Successfully sent the order!</p>;
 	return (
 		<Modal onClose={onClose}>
 			{!isSubmitting && !didSubmitting && CartModalContent}
