@@ -7,7 +7,7 @@
 }
 
 .meal h3 {
-  margin: 0 0 0.25rem 0;
+  margin: 0 0 0.5rem 0;
 }
 
 .description {
@@ -19,4 +19,17 @@
   font-weight: bold;
   color: var(--primary-dark);
   font-size: 1.25rem;
+}
+
+@media (max-width: 600px) {
+  .meal {
+  flex-wrap: wrap;
+  }
+  .price{
+    text-align: right;
+  }
+  .meal >div:last-child {
+    flex: 0 0 100%;
+    margin-top: 1rem;
+  }
 }

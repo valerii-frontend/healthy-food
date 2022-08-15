@@ -57,3 +57,10 @@
     transform: scale(1);
   }
 }
+@media (max-width: 600px) {
+  .button {
+    padding: 0.5rem;
+    border-radius: 15px;
+    font-weight: normal;
+  }
+}

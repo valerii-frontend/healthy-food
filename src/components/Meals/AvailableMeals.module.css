@@ -40,3 +40,10 @@
 		transform: translateY(0);
 	}
 }
+
+@media (max-width: 600px){
+	.meals {
+		max-width: 100%;
+		width: 100%;
+	}
+}

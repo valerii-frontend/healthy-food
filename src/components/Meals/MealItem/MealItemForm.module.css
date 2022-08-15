@@ -1,3 +1,14 @@
 .form {
   text-align: right;
 }
+
+@media (max-width: 600px) {
+  .form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .form > div {
+    margin-bottom: 0;
+  }
+}

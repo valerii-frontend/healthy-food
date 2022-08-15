@@ -5,7 +5,7 @@ const Header = ({onShowCart}) => {
 	return (
 		<>
 			<header className={classes.header}>
-				<h1>Healthy food 🥗</h1>
+				<h2><span>Healthy food</span> 🥗</h2>
 				<HeaderCartButton onClick={onShowCart} />
 			</header>
 		</>
