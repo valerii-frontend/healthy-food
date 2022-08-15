@@ -63,7 +63,7 @@ const Cart = ({onClose}) => {
 	setTimeout(()=> {
 		setIsSubmitting(false);
 		setDidSubmitting(true);
-
+		cartCtx.clearCart();
 		setTimeout(()=>{
 			onClose();
 		},1000)
