@@ -41,7 +41,7 @@ const Cart = ({onClose}) => {
 	const orderHandler = () => setIsCheckout(true);
 	const acTionButtons = (
 		<div className={classes.actions}>
-			<Button transparent onClick={onClose}>
+			<Button transparent={'yes'} onClick={onClose}>
 				Close
 			</Button>
 			{hasItems && (
@@ -63,6 +63,10 @@ const Cart = ({onClose}) => {
 	setTimeout(()=> {
 		setIsSubmitting(false);
 		setDidSubmitting(true);
+
+		setTimeout(()=>{
+			onClose();
+		},1000)
 	},2000)
 	};
 	const CartModalContent = (

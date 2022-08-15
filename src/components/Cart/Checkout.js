@@ -48,26 +48,26 @@ const Checkout = (props) => {
 		<form className={classes.form} onSubmit={confirmHandler}>
 			<div className={`${classes.control} ${!formInpValidity.name ? classes.invalid : ""}`}>
 				<label htmlFor='name'>Your Name</label>
-				<input type='text' id='name' ref={nameInputRef} />
+				<input type='text' id='name' ref={nameInputRef} defaultValue='John Alleen'/>
 				{!formInpValidity.name && <p>Please enter the valid name</p>}
 			</div>
 			<div className={`${classes.control} ${!formInpValidity.street ? classes.invalid : ""}`}>
 				<label htmlFor='street'>Street</label>
-				<input type='text' id='street' ref={streetInputRef} />
+				<input type='text' id='street' ref={streetInputRef} defaultValue='9525 Queens Blvd'/>
 				{!formInpValidity.street && <p>Please enter the valid street</p>}
 			</div>
 			<div className={`${classes.control} ${!formInpValidity.postal ? classes.invalid : ""}`}>
 				<label htmlFor='postal'>Postal Code</label>
-				<input type='text' id='postal' ref={postalInputRef} />
+				<input type='text' id='postal' ref={postalInputRef} defaultValue='11374'/>
 				{!formInpValidity.postal && <p>Please enter the valid postal code</p>}
 			</div>
 			<div className={`${classes.control} ${!formInpValidity.city ? classes.invalid : ""}`}>
 				<label htmlFor='city'>City</label>
-				<input type='text' id='city' ref={cityInputRef} />
+				<input type='text' id='city' ref={cityInputRef} defaultValue='New York'/>
 				{!formInpValidity.city && <p>Please enter the valid city</p>}
 			</div>
 			<div className={classes.actions}>
-				<Button type='button' transparent onClick={props.onCancel}>
+				<Button type='button' transparent={'yes'} onClick={props.onCancel}>
 					Cancel
 				</Button>
 				<Button>Confirm</Button>

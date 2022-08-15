@@ -5,9 +5,9 @@ import styles from './Button.module.css'
 const Button = (props) => {
 
     let btnStyles;
-    if(props.transparent) {
+    if(!!props.transparent) {
         btnStyles = `${styles.button} ${styles.button_o}`
-    } else if(props.count) {
+    } else if(!!props.count) {
         btnStyles = `${styles.button} ${styles.button_quantity}`
 
     } else {
