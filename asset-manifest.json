@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/valerii-frontend/healthy-food/static/css/main.e156a435.chunk.css",
+    "main.js": "/valerii-frontend/healthy-food/static/js/main.74b0eb3c.chunk.js",
+    "main.js.map": "/valerii-frontend/healthy-food/static/js/main.74b0eb3c.chunk.js.map",
+    "runtime-main.js": "/valerii-frontend/healthy-food/static/js/runtime-main.5d4674cc.js",
+    "runtime-main.js.map": "/valerii-frontend/healthy-food/static/js/runtime-main.5d4674cc.js.map",
+    "static/js/2.16fd7907.chunk.js": "/valerii-frontend/healthy-food/static/js/2.16fd7907.chunk.js",
+    "static/js/2.16fd7907.chunk.js.map": "/valerii-frontend/healthy-food/static/js/2.16fd7907.chunk.js.map",
+    "index.html": "/valerii-frontend/healthy-food/index.html",
+    "static/css/main.e156a435.chunk.css.map": "/valerii-frontend/healthy-food/static/css/main.e156a435.chunk.css.map",
+    "static/js/2.16fd7907.chunk.js.LICENSE.txt": "/valerii-frontend/healthy-food/static/js/2.16fd7907.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/valerii-frontend/healthy-food/static/media/salad.984d56d8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d4674cc.js",
+    "static/js/2.16fd7907.chunk.js",
+    "static/css/main.e156a435.chunk.css",
+    "static/js/main.74b0eb3c.chunk.js"
+  ]
+}
