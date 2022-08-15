@@ -1,0 +1,51 @@
+.form {
+	overflow: auto;
+	animation: slide-down 300ms ease-out forwards;
+}
+
+.control {
+	margin-bottom: 0.5rem;
+}
+
+.control label {
+	font-weight: bold;
+	margin-bottom: 0.25rem;
+	display: block;
+}
+
+.control input {
+	font: inherit;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	width: 20rem;
+	max-width: 100%;
+}
+
+.actions {
+text-align: right;
+}
+.actions > *:nth-child(2) {
+	margin-left: 10px;
+}
+.invalid label {
+	color: darkred;
+}
+
+.invalid input {
+	border-color: darkred;
+	background-color: #ffeff1;
+}
+.invalid p {
+	color: darkred;
+}
+
+@keyframes slide-down {
+	from {
+		opacity: 0;
+		transform: translateY(-3rem);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
